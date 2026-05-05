@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+     <!-- 1. Estilo do Swiper (cole ANTES do seu style.css) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <header class="navbar">
+    <div class="logo-container">
+        <img src="img/logo-galera-tech-branco-1920w.webp" alt="Logo Galera Tech" class="logo">
+    </div>
+    <!-- Outros itens do menu podem vir aqui -->
+    <nav>
+            <ul class="nav-list">
+        <li><a href="inicio.html">Início </a></li>
+        <li><a href="edições.html">Edições </a></li>
+        <li><a href="depoimentos.html">Depoimentos </a></li>
+        <li><a href="noticias.html">Notícias </a></li>
+        <li><a href="instagram.html">Instagram </a></li>
+        <li><a href="padrinhos.html">Padrinhos </a></li>
+        <li><a href="contato.html">Contato </a></li>
+    </nav>
+</header>
+
+ <!-- ... Sua Header existente ... -->
+
+    <!-- SEÇÃO HERO COM O CARROSSEL (COLE LOGO ABAIXO DA HEADER) -->
+    <section class="hero-section">
+        <!-- Container principal do Swiper -->
+        <div class="swiper mySwiper">
+            <!-- Wrapper adicional necessário -->
+            <div class="swiper-wrapper">
+                
+                <!-- SLIDE 1 (Exemplo com Imagem - igual ao seu desenho) -->
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Galeria Tech: conectando jovens, tecnologia e futuro</h1>
+                            <p>Formação gratuita em tecnologia para transformar vidas e abrir caminhos.</p>
+                            <div class="hero-btns">
+                                <a href="#" class="btn-primary">Conheça o projeto</a>
+                                <a href="#" class="btn-secondary">Quero apoiar</a>
+                            </div>
+                        </div>
+                        <div class="hero-media">
+                            <!-- Substitua pelo caminho real da sua imagem -->
+                            <img src="img/logo-galera-tech-branco-1920w.webp" alt="Equipe Galeria Tech">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 (Exemplo com um Vídeo) -->
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Aprenda na Prática</h1>
+                            <p>Assista aos nossos alunos desenvolvendo projetos reais em tempo recorde.</p>
+                        </div>
+                        <div class="hero-media">
+                            <!-- Exemplo de vídeo do YouTube/Vimeo embutido -->
+                            <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" title="Depoimento Aluno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 (Adicione quantos slides quiser aqui...) -->
+
+            </div>
+            
+            <!-- Adiciona Paginação (as bolinhas lá embaixo) -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- Adiciona Setas de Navegação (laterais) - Opcional, mas recomendado -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- ... Resto do seu site (sobre, depoimentos...) ... -->
+
+    <!-- 2. Script do Swiper (cole no final do <body>, antes de fechar) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- 3. Seu JavaScript (onde vamos ativar o carrossel) -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
