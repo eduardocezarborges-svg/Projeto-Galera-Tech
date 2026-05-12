@@ -19,7 +19,7 @@ body {
     width: auto;
     background-color: #ffffff3d;
     border-radius: 20px;
-    border: 2px solid #0c65ca; /* Espessura, Estilo (sólido) e Cor (preto) */
+    border: 2px solid #ffee06; /* Espessura, Estilo (sólido) e Cor (preto) */
     padding: 5px;          /* Espaço entre a logo e a linha do quadrado */
     object-fit: contain;   /* Garante que a logo não distorça dentro do quadrado */
 }
@@ -65,7 +65,7 @@ body {
     width: 90%;
     height: auto; /* Deixa o conteúdo definir a altura */
     border-radius: 20px; /* Borda arredondada igual ao desenho */
-    background-color: #ffffff; /* Fundo branco do container */
+    background-color: #f1f1f1; /* Fundo branco do container */
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Uma sombra leve pra destacar */
 }
 
@@ -112,20 +112,21 @@ body {
 
 .btn-primary {
     background-color: #fafafa; /* Cor principal roxa */
-    color: white;
+    color: rgba(2, 2, 2, 0.842);
 }
 
 .btn-primary:hover {
-    background-color: #2a0a9f;
+    background-color: #00eeff;
 }
 
 .btn-secondary {
-    border: 2px solid #ddd;
-    color: #333;
+    background-color: #fafafa;
+    /* border: 2px solid #ddd; */
+    color: #020202ce;
 }
 
 .btn-secondary:hover {
-    background-color: #f4f4f7;
+    background-color: #32d5e0;
 }
 
 /* PARTE DA MÍDIA (Direita) */
@@ -630,5 +631,4 @@ hr {
         grid-template-columns: 1fr; /* Tudo empilhado no celular */
     }
 }
-
 
